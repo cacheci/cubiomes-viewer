@@ -230,9 +230,9 @@ RESOURCES += \
         rc/qh.qrc
 
 # ----- logo for MacOS -----
-
-ICON = ./rc/icons/logo.icns
-
+macx {
+    ICON = ./rc/icons/logo.icns
+}
 # ----- translations (pluralization) -----
 
 TRANSLATIONS += \
