@@ -229,6 +229,10 @@ RESOURCES += \
         rc/lang.qrc \
         rc/qh.qrc
 
+# ----- logo for MacOS -----
+
+ICON = ./rc/icons/logo.icns
+
 # ----- translations (pluralization) -----
 
 TRANSLATIONS += \
